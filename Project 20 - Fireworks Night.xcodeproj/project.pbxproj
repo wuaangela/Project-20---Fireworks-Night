@@ -15,6 +15,11 @@
 		2E5B112522E8D3D400D9193F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B112322E8D3D400D9193F /* Main.storyboard */; };
 		2E5B112722E8D3D700D9193F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B112622E8D3D700D9193F /* Assets.xcassets */; };
 		2E5B112A22E8D3D700D9193F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B112822E8D3D700D9193F /* LaunchScreen.storyboard */; };
+		2E5B113722E8D76200D9193F /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B113222E8D76200D9193F /* spark.png */; };
+		2E5B113822E8D76200D9193F /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B113322E8D76200D9193F /* fuse.sks */; };
+		2E5B113922E8D76200D9193F /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B113422E8D76200D9193F /* explode.sks */; };
+		2E5B113A22E8D76200D9193F /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B113522E8D76200D9193F /* background@2x.png */; };
+		2E5B113B22E8D76200D9193F /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5B113622E8D76200D9193F /* rocket@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		2E5B112622E8D3D700D9193F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E5B112922E8D3D700D9193F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E5B112B22E8D3D700D9193F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5B113222E8D76200D9193F /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		2E5B113322E8D76200D9193F /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		2E5B113422E8D76200D9193F /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		2E5B113522E8D76200D9193F /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		2E5B113622E8D76200D9193F /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +77,23 @@
 				2E5B112122E8D3D400D9193F /* GameViewController.swift */,
 				2E5B112322E8D3D400D9193F /* Main.storyboard */,
 				2E5B112622E8D3D700D9193F /* Assets.xcassets */,
+				2E5B113122E8D76200D9193F /* Content */,
 				2E5B112822E8D3D700D9193F /* LaunchScreen.storyboard */,
 				2E5B112B22E8D3D700D9193F /* Info.plist */,
 			);
 			path = "Project 20 - Fireworks Night";
+			sourceTree = "<group>";
+		};
+		2E5B113122E8D76200D9193F /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E5B113222E8D76200D9193F /* spark.png */,
+				2E5B113322E8D76200D9193F /* fuse.sks */,
+				2E5B113422E8D76200D9193F /* explode.sks */,
+				2E5B113522E8D76200D9193F /* background@2x.png */,
+				2E5B113622E8D76200D9193F /* rocket@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +155,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5B112522E8D3D400D9193F /* Main.storyboard in Resources */,
+				2E5B113A22E8D76200D9193F /* background@2x.png in Resources */,
+				2E5B113722E8D76200D9193F /* spark.png in Resources */,
 				2E5B111C22E8D3D400D9193F /* GameScene.sks in Resources */,
+				2E5B113922E8D76200D9193F /* explode.sks in Resources */,
 				2E5B112722E8D3D700D9193F /* Assets.xcassets in Resources */,
+				2E5B113B22E8D76200D9193F /* rocket@2x.png in Resources */,
 				2E5B112A22E8D3D700D9193F /* LaunchScreen.storyboard in Resources */,
+				2E5B113822E8D76200D9193F /* fuse.sks in Resources */,
 				2E5B111E22E8D3D400D9193F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AngelaWu.Project-20---Fireworks-Night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -322,7 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AngelaWu.Project-20---Fireworks-Night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
